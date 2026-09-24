@@ -7,7 +7,7 @@ Repositorio de la materia ¨Circuitos Lógicos Programables¨ CESE
 | 2         | Hecho     |
 | 3         | Hecho     |
 | 4         | Hecho     |
-| 5         | Pendiente |
+| 5         | Hecho     |
 | 6         | Pendiente |
 | 8         | Pendiente |
 | 10        | Pendiente |

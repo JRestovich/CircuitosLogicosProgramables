@@ -3,9 +3,9 @@ Repositorio de la materia ¨Circuitos Lógicos Programables¨ CESE
 
 | Ejercicio | Estado    |
 |-----------|-----------|
-| 1         | Pendiente |
-| 2         | Pendiente |
-| 3         | Pendiente |
+| 1         | Hecho     |
+| 2         | Hecho     |
+| 3         | Hecho     |
 | 4         | Pendiente |
 | 5         | Pendiente |
 | 6         | Pendiente |

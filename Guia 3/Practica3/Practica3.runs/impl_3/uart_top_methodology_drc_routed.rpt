@@ -1,0 +1,69 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Sat Oct  3 18:15:40 2026
+| Host         : JRestovich running 64-bit major release  (build 9200)
+| Command      : report_methodology -file uart_top_methodology_drc_routed.rpt -pb uart_top_methodology_drc_routed.pb -rpx uart_top_methodology_drc_routed.rpx
+| Design       : uart_top
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 5
++-----------+----------+------------------------------------------+------------+
+| Rule      | Severity | Description                              | Violations |
++-----------+----------+------------------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay            | 1          |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 4          |
++-----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rxd_pin relative to clock(s) clk_pin
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of -3.300 ns has been defined on port 'led_pins[0]' relative to clock virtual_clock for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clock -3.300 [get_ports {led_pins[*]}]
+C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 3/Practica3/Practica3.srcs/constrs_1/imports/Guia 2/uart_led_timing_ArtyZ7.xdc (Line: 19)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of -3.300 ns has been defined on port 'led_pins[1]' relative to clock virtual_clock for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clock -3.300 [get_ports {led_pins[*]}]
+C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 3/Practica3/Practica3.srcs/constrs_1/imports/Guia 2/uart_led_timing_ArtyZ7.xdc (Line: 19)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of -3.300 ns has been defined on port 'led_pins[2]' relative to clock virtual_clock for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clock -3.300 [get_ports {led_pins[*]}]
+C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 3/Practica3/Practica3.srcs/constrs_1/imports/Guia 2/uart_led_timing_ArtyZ7.xdc (Line: 19)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of -3.300 ns has been defined on port 'led_pins[3]' relative to clock virtual_clock for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock virtual_clock -3.300 [get_ports {led_pins[*]}]
+C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 3/Practica3/Practica3.srcs/constrs_1/imports/Guia 2/uart_led_timing_ArtyZ7.xdc (Line: 19)
+Related violations: <none>
+
+

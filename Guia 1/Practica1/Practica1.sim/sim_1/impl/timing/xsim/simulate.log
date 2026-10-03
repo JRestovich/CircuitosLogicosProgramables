@@ -1,0 +1,6 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Note: La salida LED es correcta en 70000 ps
+Time: 70 ns  Iteration: 0  Process: /lab1_tb/line__51  File: C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 1/Practica1/Practica1.srcs/sim_1/imports/Guia 1/lab1_tb.vhd
+Note: La salida LED es correcta en 140000 ps
+Time: 140 ns  Iteration: 0  Process: /lab1_tb/line__51  File: C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Guia 1/Practica1/Practica1.srcs/sim_1/imports/Guia 1/lab1_tb.vhd

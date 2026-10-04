@@ -1,1 +1,11 @@
 **/simulacion/**
+.tmp_pdf_tools
+.codex_pdf_tools
+**.wdf
+
+*.cache/
+*.sim/
+*.runs/
+*.ip_user_files/
+*.hw/
+.Xil/

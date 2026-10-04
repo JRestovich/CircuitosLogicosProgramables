@@ -17,15 +17,17 @@ entity acumulador_fase is
 end;
 
 architecture acumulador_fase_arq of acumulador_fase is
+    signal phase_reg : unsigned(N-1 downto 0);
 begin
+    phase_o <= std_logic_vector(phase_reg);
 
 	process(clk_i)
 	begin
 		if rising_edge(clk_i) then
 			if rst_i = '1' then
-				phase_o <= std_logic_vector(to_unsigned(0, N));
+				phase_reg <= to_unsigned(0, N);
 			elsif ena_i = '1' then
-				phase_o <= ( unsigned(phase_o) + unsigned(K_i) ) * 2**N;
+				phase_reg <= phase_reg + unsigned(K_i);
 			end if;
 		end if;
 	end process;

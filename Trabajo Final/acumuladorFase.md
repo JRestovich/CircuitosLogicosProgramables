@@ -10,11 +10,25 @@ $$
 \phi[n+1] = (\phi[n] + K) \bmod 2^N
 $$
 
+Al representarse como un valor sin signo de $N$ bits, la fase digital siempre está acotada al rango:
+
+$$
+0 \leq \phi[n] \leq 2^N-1
+$$
+
 El **máximo valor almacenado** es $2^N-1$, mientras que el **módulo del acumulador** es $2^N$: la cantidad de valores posibles, incluyendo el cero. Un recorrido completo del rango representa una vuelta de fase de $2\pi$ radianes:
 
 $$
 \theta[n] = 2\pi\frac{\phi[n]}{2^N}
 $$
+
+Por lo tanto, la fase angular representada está en el rango:
+
+$$
+0 \leq \theta[n] \leq 2\pi\left(1-\frac{1}{2^N}\right) < 2\pi
+$$
+
+La fase de $2\pi$ equivale a cero: el desbordamiento del acumulador representa el comienzo de una nueva vuelta del seno.
 
 Por ejemplo, para $N=8$, los valores posibles son de 0 a 255 y el módulo es 256. Con $K=1$, después de 255 se obtiene 0.
 

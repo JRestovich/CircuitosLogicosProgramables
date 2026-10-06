@@ -60,7 +60,7 @@ begin
         generic map (
             N         => 32,
             FREQ_BITS => 32,
-            FS_HZ     => 50_000_000
+            FS_HZ     => 100_000_000
         )
         port map (
             clk_i     => clk_pin,

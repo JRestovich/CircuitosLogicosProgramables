@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="36" Path="C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/Trabajo Final/TrabajoFinalCLP/TrabajoFinalCLP.xpr">
+<Project Version="7" Minor="36" Path="C:/Users/jrest/OneDrive/Escritorio/UBA/CLP/CircuitosLogicosProgramables/TP/TP_CLP/TrabajoFinalCLP.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d506a86be2c648249e1f530068b6d242"/>
